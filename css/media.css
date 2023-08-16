@@ -1,0 +1,61 @@
+/* mobile */
+@media(min-width:320px){
+    container{
+        width: 85%;
+        margin: 0 auto;
+        height: 400px;
+    }
+    .col{
+        width:100%;
+        margin: 0 auto;
+        border: 1px solid;
+        height: 320px;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+    }
+    
+
+}
+
+/* ipad */
+@media(min-width:660px){
+    container{
+        width: 85%;
+        margin: 0 auto;
+        height: 400px;
+    }
+    .col{
+        width:60%;
+        margin: 0 auto;
+        border: 1px solid;
+        height: 320px;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+    }
+    
+}
+
+/* laptop */
+@media(min-width:960px){
+    container{
+        width: 85%;
+        margin: 0 auto;
+        height: 400px;
+    }
+    .col{
+        width:40%;
+        margin: 0 auto;
+        border: 1px solid;
+        height: 320px;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+        padding-top: 60px;
+    }
+    
+}
